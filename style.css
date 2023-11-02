@@ -1,0 +1,234 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #F5F7FA;  
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 20px;
+    Offset: 6px, 6px rgba(0, 0, 0, 0.1);
+}
+.main-content{
+    padding: 100px 90px;
+}
+
+
+/* about me section */
+.about-me{
+    padding:0 0 40px 0;
+}
+.about-me-profession{
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    color: #000;
+    padding:0 0  20px 0;
+}
+.name{
+    Font-style: Bold;
+    Font-size: 45px;
+    Line-height: 55px;
+    Line-height: 100%;
+    color: #000;
+    padding: 0 0 25px 0;
+}
+.description{
+    Width: 400px;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    color: #595959;
+    
+}
+.main-content-title{
+    Font-style: Bold;
+    Font-size: 22px;
+    Line-height: 27px;
+    Line-height: 100%;
+    color: #000;
+    margin-bottom:  10px;
+}
+    
+/* my projects section */
+.my-projects{
+    margin-bottom: 50px;
+}
+.my-projects-list {
+    padding:0 0 0 16px;
+}
+.my-projects-item{
+    color: #000;
+}
+.my-project-link{
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    line-height: 141%;
+    color: #595959;
+}
+.my-projects-text{
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    color: #595959;
+    margin-left: 5px ;
+}
+.my-projects-bracket{
+    font-style: bolt;
+    Font-style: (mixed);
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    color: #000000;
+}
+
+/* my work experience */
+.my-work-experience{
+     margin-bottom: 45px;
+}
+.company{
+    color: #FB6D3A;
+
+}
+.my-work-experiece-position{
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 20px;
+    Line-height: 100%;
+    margin-bottom: 10px;
+}
+.my-work-experiece-time{
+    Font-style: Regular;
+    Font-size: 12px;;
+    Line-height: 15px;
+    Line-height: 100%;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.divider{
+    color: black;
+    font-style: Bold;
+}
+.my-work-duties{
+    padding-left: 18px;
+}
+.my-work-duty{
+    color:#595959 ;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    width: 515px;
+}
+.my-work-experiece-company{
+    padding-bottom: 15px;
+}
+
+/* my education */
+.my-education{
+    margin-bottom: 200px;
+}
+.university{
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 20px;
+    Line-height: 100%;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+.profession{
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 17px;
+    Line-height: 100%;
+    color: #000;
+    margin-bottom: 10px;
+}
+/* sidebar sections */
+.sidebar{
+    background-color:#1E2939 ;
+    Width: 370px ;
+    padding: 40px 0;
+}
+
+.contacts-section{
+    margin: 50px 0 0 40px;
+
+}
+.tech-skills-section,
+.soft-skills-section{
+    margin: 50px 0 0 40px;
+}
+.sidebar-title{
+    Font-style: Bold;
+    Font-size: 22px;
+    Line-height: 27px;
+    Line-height: 100%;
+    color: #ffffff ;
+    margin-bottom: 10px ;
+}
+
+.divphoto{
+    display: flex;
+    justify-content: center;
+}
+
+.myphoto{
+    width: 266px;
+    height: 266px;
+}
+
+/* contacts section */
+.contacts-section-type{
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 24px;
+    color: #fff;
+    margin-right: 15px ;
+}
+.contacts-section-link{
+    color: #8F949C;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+}
+
+/* skills */
+.skills-list{
+    padding:0 0 0 19px;
+}
+.skills-item{
+    color: #FB6D3A
+    ;
+}
+.skills-item-text{
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .myphoto{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .myphoto{
+        width: 250px;
+        height: 250px;
+    }
+
+}
